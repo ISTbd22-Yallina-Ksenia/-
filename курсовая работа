@@ -272,7 +272,7 @@ if __name__ == '__main__':
     ##интерфейс главного окна. выбор режима работы
     root = Tk()
     root.title("Создание двуязычных субтитров")
-    root.geometry("800x500")
+    root.geometry("800x500+270+100")
     filepath_arr = [" ", " "]
     encoding_of_file_arr = [" ", " "]
     num_stroka = 0
